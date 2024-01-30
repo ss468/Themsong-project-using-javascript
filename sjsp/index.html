@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding song with element</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <button type="button" class="btn btn-outline-dark"><h1 class="heading">Click on Images to play their respective theme song </button></h1>
+    <div class="main">
+    <div class="captainjacksparrow">
+    <h1>Jack sparrow</h1>
+    <button type="button" class="btn btn-outline-dark" id="jack"><img src="cjs.jpg" alt="Captain"></button>
+    </div>
+    <div class="avengers">
+        <h1>Avengers</h1>
+    <button  type="button" id="avg" class="btn btn-outline-dark"><img src="avengers1.jpeg" alt="thor"></button>
+    </div>
+    <div class="scam">
+        <h1>Scam 1992</h1>
+    <button  type="button" id="stock" class="btn btn-outline-dark"><img src="hs1.jpg" alt="scam"></button>
+    </div>
+    </div>
+    <button class="pause" id="pause">Pause</button>
+    <button class="pause1" id="pause1">Continue</button>
+
+
+    <audio id="myAudio">
+        <source src="ptc.mp3">
+    </audio>
+    <audio id="myAudio2">
+        <source src="Avengers theme.mp3">
+    </audio>
+    <audio id="myAudio3">
+        <source src="Scam 1992 theme.mp3">
+    </audio>
+
+<script src="main.js"></script>
+</body>
+</html>
